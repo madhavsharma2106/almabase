@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: compareproducts-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLables:
+      app: compareproducts
+  template:
+    metadata:
+      lables:
+        app: compareproducts
+    spec:
+      containers:
+        - name: compareproducts
+          image: madhavontheweb/compareproducts
+          ports:
+            - containerPort: 80
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: compareproducts-service
+spec:
+  selector:
+    app: compareproducts
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 38000
+  type: LoadBalancer

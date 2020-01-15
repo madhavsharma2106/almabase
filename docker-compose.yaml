@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  sample:
+    image: productcompare
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ".:/app"
+      - "/app/node_modules"
+      - "/app/package.json"
+    ports:
+      - "3001:3000"
+    environment:
+      - NODE_ENV=development
