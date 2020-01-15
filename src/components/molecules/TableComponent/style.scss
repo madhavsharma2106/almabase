@@ -1,0 +1,28 @@
+@import "../../styles/theme.scss";
+.table-component {
+  width: 100%;
+  text-align: center;
+  thead,
+  tbody {
+    border-bottom: 1px solid $font-secondary;
+  }
+  tr {
+    height: 50px;
+  }
+
+  td {
+    padding: 0;
+  }
+  thead {
+    background-color: $white;
+  }
+
+  tbody {
+    .listing {
+      background-color: $listing-background;
+    }
+    tr {
+      background-color: $white;
+    }
+  }
+}

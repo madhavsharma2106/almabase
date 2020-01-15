@@ -1,0 +1,15 @@
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #b3b1b12e;
+  z-index: 1;
+}
+
+.modal-content {
+  position: fixed;
+  top: 100px;
+  z-index: 2;
+}

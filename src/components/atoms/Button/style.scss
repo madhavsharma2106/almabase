@@ -1,0 +1,23 @@
+@import "../../styles/theme.scss";
+
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  &:focus {
+    outline: none;
+  }
+}
+
+.primary {
+  background-color: $button-blue;
+  border: 2px solid $button-blue;
+  color: $white;
+}
+
+.secondary {
+  background-color: $white;
+  border: 2px solid $button-blue;
+  color: $button-blue;
+}

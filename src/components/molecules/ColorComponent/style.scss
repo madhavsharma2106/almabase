@@ -1,0 +1,13 @@
+@import "../../styles/theme.scss";
+.color-component {
+  font-size: 30px;
+  .red {
+    color: $product-color-red;
+  }
+  .green {
+    color: $product-color-green;
+  }
+  .blue {
+    color: $product-color-blue;
+  }
+}

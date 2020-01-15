@@ -1,0 +1,21 @@
+@import "../../styles/theme";
+
+.text {
+  color: $font-primary;
+}
+
+.text-heading {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text-description {
+  color: $font-secondary;
+  font-size: 14px;
+}
+
+.text-highlighted {
+  font-weight: bold;
+  color: $button-blue;
+  font-size: 25px;
+}

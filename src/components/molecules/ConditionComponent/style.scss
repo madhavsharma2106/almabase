@@ -1,0 +1,16 @@
+@import "../../styles/theme.scss";
+.background-red {
+  background-color: $product-color-red;
+}
+
+.background-green {
+  background-color: $product-color-green;
+}
+
+.condition-color-compontent {
+  color: $white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
