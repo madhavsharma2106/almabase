@@ -1,6 +1,5 @@
 # Product Compare Application
 
-===================
 The Product compare application allows you to compare products and their attributes.
 
 ### `Design Philosophy`
