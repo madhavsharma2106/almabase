@@ -1,5 +1,5 @@
 import { TOGGLE_MODAL_STATE } from "../actions/types";
-const initialState = { displayModal: true };
+const initialState = { displayModal: false };
 
 export default (state = initialState, action) => {
   switch (action.type) {
